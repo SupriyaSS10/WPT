@@ -1,0 +1,2640 @@
+Web Technology Assignment
+
+Name: Supriya Sanjay Sonawane
+Roll No. 229101
+
+
+HTML
+
+Problem-1:
+<html>
+
+<head>
+    <h1>
+        <center><u>Resume</u></center>
+    </h1>
+</head>
+
+<body>
+
+    <h4><i>Supriya Sonawane</i></h4>
+    Borole Nagar-2,<br>
+    Yawal Road,Chopda,<br>
+    Chopda-425 107,<br>
+    Dist-Jalgaon<br>
+    Mobile No.9850524711<br>
+    <b>Email: </b>supriyasanjays@gmail.com<br>
+    ______________________________________________________________________________________________________________________________
+
+    <b>
+        <h1>Educational Qualification:</h1>
+    </b>
+    <table width="70%">
+        <tr>
+            <td><b>Qualification</b></td>
+            <td><b>Institute</b></td>
+            <td><b>University/Board</b></td>
+            <td><b>Marks</b></td>
+            <td><b>Year of Passing</b></td>
+        </tr>
+
+        <tr>
+            <td>BE</td>
+            <td>Amrutvahini COE</td>
+            <td>SSPU</td>
+            <td>72%</td>
+            <td>2018</td>
+        </tr>
+        <tr>
+            <td>Diploma</td>
+            <td>S.S.Patil Inst.& tech,poly,Chopda</td>
+            <td>MSBTE</td>
+            <td>82%</td>
+            <td>2015</td>
+        </tr>
+        <tr>
+            <td>SSC</td>
+            <td>Pankaj Vidyalaya,Chopda</td>
+            <td>Maharashtra board</td>
+            <td>98.40%</td>
+            <td>2012</td>
+        </tr>
+    </table>
+    <b>
+        <h1>Skill Set:</h1>
+    </b>
+
+    <table>
+        <tr>
+            <td><b>Operating System:</b></td>
+            <td>Windows 9'x,</td>
+        </tr>
+        <tr>
+            <td><b>Language:</b></td>
+            <td>c/c++</td>
+        </tr>
+        <tr>
+            <td><b>Front End:</b></td>
+            <td>VB 6.0</td>
+        </tr>
+        <tr>
+            <td><b>DBMS:</b></td>
+            <td>Oracle 9i</td>
+        </tr>
+    </table>
+</body>
+
+</html>
+
+ 
+------------------------------------------------------------------------------
+Problem-2:
+<html>
+<head>
+</head>
+
+<body>
+    <ol>
+        <li>Language
+            <ol type="i">
+                <li>English
+                    <ol type="A">
+                        <li>Prose</li>
+                        <li>Poetry</li>
+                    </ol>
+                <li>Hindi
+                    <ol type="A">
+                        <li>Prose</li>
+                        <li>Poetry</li>
+                    </ol>
+                </li>
+                <li>Marathi
+                    <ol type="A">
+                        <li>Prose</li>
+                        <li>Poetry</li>
+                    </ol>
+                </li>
+            </ol>
+
+        <li>Social Study
+            <ol type="i">
+                <li>History</li>
+                <li>Geography</li>
+            </ol>
+        </li>
+
+        <li>Science
+            <ol type="i">
+                <li>Physics
+                    <ol type="A">
+                        <li>Part1</li>
+                        <li>Part2</li>
+                    </ol>
+                </li>
+                <li>Chemistry
+                    <ol type="A">
+                        <li>Organic</li>
+                        <li>Inorganic</li>
+                    </ol>
+                </li>
+                <li>Biology
+                    <ol type="A">
+                        <li>Botany</li>
+                        <li>Zoology</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>Maths
+            <ol type="A">
+                <li>Agebra</li>
+                <li>Geometry</li>
+            </ol>
+        </li>
+    </ol>
+
+</body>
+
+</html>
+ 
+----------------------------------------------------------------------------------------------------	
+Problem-3a:
+<html>
+<head>
+    <h1><b>List of Java Books</b></h1>
+</head>
+<body alink="black",vlink="purple",link="yellow">
+<table border="2px">
+    <tr>
+        <td><b>Book Title</b></td>
+        <td><b>Author</b></td>
+        <td><b>Book Price</b></td>
+    </tr>
+
+    <tr>
+        <td><a href="CoreJava.html">Core Java</a></td>
+        <td>Cay Horton</td>
+        <td>400</td>
+    </tr>
+
+    <tr>
+    <td><a href="Beginning Java.html">Beginning Java</a></td>
+    <td>Ivar Horston</td>
+    <td>600</td>
+    </tr>
+
+    <tr>
+        <td><a href="Learning Java.html">Learning Java</a></td>
+        <td>Kishori Shahane</td>
+        <td>400</td>
+    </tr>
+
+    <tr>
+        <td><a href="Java Cookbook.html">Java Cookbook</a></td>
+        <td>John Keller</td>
+        <td>800</td>
+    </tr>
+
+</table>
+
+</body>
+
+</html>
+ 
+Problem-3b:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamilton</title>
+
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            scrollbar-width: thin;
+            scrollbar-color: #2eadad white;
+        }
+
+        .title {
+            display: inline; 
+            font-size:60px ;
+            color:#2eadad;
+        }
+
+        .table1 {
+            border-collapse: collapse;
+        }
+
+        .table1 th {
+            height: 25px;
+            width: calc(100%/9);
+        }
+
+        .table2 {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        .table2 td, th {
+            border: 1px solid black;
+            width: calc(100%/19);
+        }
+
+        .table3 {
+            width: 100%;
+            font-size: 18px;
+        }
+
+        .table3 td {
+            border-collapse: collapse;
+            background-color: rgb(207, 207, 207);
+            border-radius: 4px;
+            width: calc(100vw/2);
+        }
+
+        .table4 {
+            margin: 20px;
+            width: 400px;
+            font-size: 16px;
+            border: 2px solid rgb(140, 9, 192);
+            border-radius: 6px;
+            box-shadow: 2px 2px 4px rgb(140, 9, 192);
+        }
+
+        .table5 {
+            border-radius: 4px;
+            width: 100%;
+            background-color: #2eadad; 
+            color:white; 
+            text-align:center;
+        }
+
+        #row1 {
+            color: aliceblue;
+            background-color: #2eadad;
+        }
+
+        .col1 {
+            background-color: #f1edc6;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="./dome.png" height="60px" width="130px" style="display: inline">
+    <p class="title">Hamilton<br>Conference Center</p>
+    
+    <table class="table1">
+        <tr id="row1">
+            <th> HomePage </th>
+            <th> Reservation </th>
+            <th> Facilities </th>
+            <th> Virtual Tour </th>
+            <th> Staff </th>
+            <th> Calender of Events </th>
+            <th> Contact Info </th>
+            <th> Directions </th>
+            <th> FAQ </th>
+
+        </tr>
+        <tr id="row2">
+            <td colspan="9" style="text-align: right;"><br>Reservation for Conference Rooms<br>Tuesday,April 11</td>
+        </tr>
+    </table>
+    <table class="table2">
+        <tr style="background-color:#2eadad; color:aliceblue">
+            <th></th>
+            <th colspan="8">Morning</th>
+            <th colspan="2">Noon</th>
+            <th colspan="8">Afternoon</th>
+        </tr>
+        <tr style="background-color:#2eadad; color:aliceblue" align="center">
+            <td>Room</td>
+            <td>8:00</td>
+            <td>8:30</td>
+            <td>9:00</td>
+            <td>9:30</td>
+            <td>10:00</td>
+            <td>10:30</td>
+            <td>11:00</td>
+            <td>11:30</td>
+            <td>12:00</td>
+            <td>12:30</td>
+            <td>1:00</td>
+            <td>1:30</td>
+            <td>2:00</td>
+            <td>2:30</td>
+            <td>3:00</td>
+            <td>3:30</td>
+            <td>4:00</td>
+            <td>4:30</td>
+        </tr>
+        <tr>
+            <td class="col1">Sunrise Room</td>
+            <td colspan="4">Marrige Encounter</td>
+            <td colspan="4"></td>
+            <td colspan="2">Marrige Encounter Luncheon</td>
+            <td colspan="4"></td>
+            <td colspan="4">Marrige Encounter Tasks</td>
+        </tr>
+        <tr>
+            <td class="col1">Mountain View Room</td>
+            <td colspan="2">Breakfast Club of Ohio</td>
+            <td colspan="4"></td>
+            <td colspan="4">Ohio Conference of Librarians</td>
+            <td colspam="2"></td>
+            <td colspan="4">Ohio Book resale Setup</td>
+        </tr>
+        <tr>
+            <td class="col1">Arbor Hall</td>
+            <td colspan="8">Computer Expo Set Up</td>
+            <td colspan="2"></td>
+            <td colspan="8">Computer Expo Opening Up</td>
+        </tr>
+        <tr>
+            <td class="col1">Mitchell Theater</td>
+            <td colspan="14"></td>
+            <td colspan="4">Youth Theatre</td>
+        </tr>
+        <tr>
+            <td class="col1">Gold Room</td>
+            <td colspan="2"></td>
+            <td colspan="2">The Tompkin's Group</td>
+            <td colspan="2">Pearson Planning</td>
+            <td colspan="4"></td>
+            <td colspan="2">Mother of Multiples</td>
+            <td colspan="2">Tenn Connection</td>
+        </tr>
+        <tr>
+            <td class="col1">Blue Room</td>
+            <td colspan="2"></td>
+            <td colspan="3">Retirement Planning</td>
+            <td colspan="3">The Senior Group</td>
+            <td colspan="2">Senior Luncheon</td>
+            <td colspan="5">Senior Classes</td>
+            <td colspan="3">Tutoring</td>
+        </tr>
+        <tr>
+            <td class="col1">Green Room</td>
+            <td colspan="2"></td>
+            <td colspan="4">Driver's Ed</td>
+            <td colspan="4">Movie Club</td>
+            <td colspan="5"></td>
+            <td colspan="3">Tutoring</td>
+        </tr>
+    </table>
+
+    <table class="table3">
+        <tr>
+            <td>
+                <p style="padding: 10px;">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam reprehenderit, consequatur possimus
+                    vitae quas nobis neque deserunt molestias inventore sapiente perferendis, rerum, earum ducimus aut
+                    nihil placeat. Quo, quidem. Repudiandae quia nobis, accusamus unde.
+                </p>
+            </td>
+            <td style="display: flex; justify-content: center;">
+                <table class="table4">
+                    <tr>
+                        <td>Sunrise Room</td>
+                        <td>Maximum Capacity: 80</td>
+                    </tr>
+                    <tr>
+                        <td>Maountain View Room</td>
+                        <td>Maximum Capacity: 150</td>
+                    </tr>
+                    <tr>
+                        <td>Arbor Hall</td>
+                        <td>Maximum Capacity: 190</td>
+                    </tr>
+                    <tr>
+                        <td>Mitchell Theatre</td>
+                        <td>Maximum Capacity: 120</td>
+                    </tr>
+                    <tr>
+                        <td>Golden Room</td>
+                        <td>Maximum Capacity: 40</td>
+                    </tr>
+                    <tr>
+                        <td>Silver Room</td>
+                        <td>Maximum Capacity: 30</td>
+                    </tr>
+                    <tr>
+                        <td>Green Room</td>
+                        <td>Maximum Capacity: 55</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <table class="table5">
+        <tr>
+            <td>
+                HAMILTON CONFERENCE CENTRE * 8877 WEST PARK LANE * HAMILTON,OH 45011*(513)555-7911
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+
+
+ 
+----------------------------------------------------------------------------------------------------
+
+Problem-4:
+</head>
+<body>
+    
+       In common usage, climate change describes global warming—the ongoing increase in global average temperature—and its effects on Earth's climate system. Climate change in a broader sense also includes previous long-term changes to Earth's climate. The current rise in global average temperature is more rapid than previous changes, and is primarily caused by humans burning fossil fuels.[2][3] Fossil fuel use, deforestation, and some agricultural and industrial practices increase greenhouse gases, notably carbon dioxide and methane.[4] Greenhouse gases absorb some of the heat that the Earth radiates after it warms from sunlight. Larger amounts of these gases trap more heat in Earth's lower atmosphere, causing global warming.
+
+Due to climate change, deserts are expanding, while heat waves and wildfires are becoming more common.[5] Increased warming in the Arctic has contributed to melting permafrost, glacial retreat and sea ice loss.[6] Higher temperatures are also causing more intense storms, droughts, and other weather extremes.[7] Rapid environmental change in mountains, coral reefs, and the Arctic is forcing many species to relocate or become extinct.[8] Even if efforts to minimise future warming are successful, some effects will continue for centuries. These include ocean heating, ocean acidification and sea level rise.[9]
+
+Climate change threatens people with food and water scarcity, increased flooding, extreme heat, more disease, and economic loss. Human migration and conflict can also be a result.[10] The World Health Organization (WHO) calls climate change the greatest threat to global health in the 21st century.[11] Communities may adapt to climate change through efforts like coastline protection or expanding access to air conditioning, but some impacts are unavoidable. Poorer countries are responsible for a small share of global emissions, yet they have the least ability to adapt and are most vulnerable to climate change.
+
+Many climate change impacts are already felt at the current 1.2 °C (2.2 °F) level of warming. Additional warming will increase these impacts and may trigger tipping points, such as the melting of the Greenland ice sheet.[12] Under the 2015 Paris Agreement, nations collectively agreed to keep warming "well under 2 °C". However, with pledges made under the Agreement, global warming would still reach about 2.7 °C (4.9 °F) by the end of the century.[13] Limiting warming to 1.5 °C will require halving emissions by 2030 and achieving net-zero emissions by 2050.[14]
+
+Bobcat Fire in Monrovia, CA, September 10, 2020
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Change_in_Average_Temperature_With_Fahrenheit.svg/300px-Change_in_Average_Temperature_With_Fahrenheit.svg.png" 
+        style="float:left;border-width: 20px;border-color: white;" border="1px" width="300px" height="300px"></img>
+
+Bleached colony of Acropora coral
+A dry lakebed in California, which is experiencing its worst megadrought in 1,200 years.[15]
+Some effects of climate change, clockwise from top left: Wildfire intensified by heat and drought, worsening droughts compromising water supplies, and bleaching of coral caused by marine heatwaves.
+Reducing emissions requires generating electricity from low-carbon sources rather than burning fossil fuels. This change includes phasing out coal and natural gas fired power plants, vastly increasing use of wind, solar, and other types of renewable energy, and reducing energy use. Electricity generated from non-carbon-emitting sources will need to replace fossil fuels for powering transportation, heating buildings, and operating industrial facilities.[16][17] Carbon can also be removed from the atmosphere, for instance by increasing forest cover and by farming with methods that capture carbon in soil.[18]
+Terminology
+Before the 1980s, when it was unclear whether the warming effect of increased greenhouse gases were stronger than the cooling effect of airborne particulates in air pollution, scientists used the term inadvertent climate modification to refer to human impacts on the climate.[19]
+
+In the 1980s, the terms global warming and climate change became more common. Though the two terms are sometimes used interchangeably,[20] scientifically, global warming refers only to increased surface warming, and climate change describes the full effect of greenhouse gases on Earth's climate system.[19] Global warming—used as early as 1975[21]—became the more popular term after NASA climate scientist James Hansen used it in his 1988 testimony in the U.S. Senate.[22] Since the 2000s, climate change has increased in usage.[23] Climate change can also refer more broadly to both human-caused changes or natural changes throughout Earth's history.[24]
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Global_Temperature_And_Forces_With_Fahrenheit.svg/300px-Global_Temperature_And_Forces_With_Fahrenheit.svg.png" style="float:right;border-width:20px;border-color:white;" border="1px" width="300px" height="300px"></img>
+Various scientists, politicians and media now use the terms climate crisis or climate emergency to talk about climate change, and global heating instead of global warming.[25]
+Observed temperature rise
+Main articles: Temperature record of the last 2,000 years and Instrumental temperature record
+
+Global surface temperature reconstruction over the last 2000 years using proxy data from tree rings, corals, and ice cores in blue.[26] Directly observed data is in red.[27]
+Multiple independent instrumental datasets show that the climate system is warming.[28] The 2011–2020 decade warmed to an average 1.09 °C [0.95–1.20 °C] compared to the pre-industrial baseline (1850–1900).[29] Surface temperatures are rising by about 0.2 °C per decade,[30] with 2020 reaching a temperature of 1.2 °C above the pre-industrial era.[31] Since 1950, the number of cold days and nights has decreased, and the number of warm days and nights has increased.[32]
+
+There was little net warming between the 18th century and the mid-19th century. Climate information for that period comes from climate proxies, such as trees and ice cores.[33] Thermometer records began to provide global coverage around 1850.[34] Historical patterns of warming and cooling, like the Medieval Climate Anomaly and the Little Ice Age, did not occur at the same time across different regions. Temperatures may have reached as high as those of the late-20th century in a limited set of regions.[35] There have been prehistorical episodes of global warming, such as the Paleocene–Eocene Thermal Maximum.[36] However, the modern observed rise in temperature and CO2 concentrations has been so rapid that even abrupt geophysical events in Earth's history do not approach current rates.[37]
+
+Evidence of warming from air temperature measurements are reinforced with a wide range of other observations.[38][39] For example, changes to the natural water cycle have been predicted and observed, such as an increase in the frequency and intensity of heavy precipitation, melting of snow and land ice, and increased atmospheric humidity.[40] Flora and fauna are also behaving in a manner consistent with warming; for instance, plants are flowering earlier in spring.[41] Another key indicator is the cooling of the upper atmosphere, which demonstrates that greenhouse gases are trapping heat near the Earth's surface and preventing it from radiating into space
+</body>
+</html>
+
+ 
+Problem-5:
+<html>
+
+<body>
+    <table border="2px" bgcolor="pink">
+        <form>
+            <tr>
+                <td>
+                    <label for="nm">Name</label>
+                </td>
+                <td>
+                    <input type="text" name="name" id="nm" width="200px">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="code">Employee code</label>
+                </td>
+                <td>
+                    <input type="number" name="code" id="code" width="200px">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="department">Department</label>
+                </td>
+                <td>
+                    <input type="radio" name="department" id="ADMIN">
+                    <label for="ADMIN">ADMIN</label>
+                    <input type="radio" name="department" id="HR">
+                    <label for="HR">HR</label>
+                    <input type="radio" name="department" id="Technical">
+                    <label for="Technical">Technical</label>
+                    <input type="radio" name="department" id="Accounts">
+                    <label for="Accounts">Accounts</label>Accounts
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dt">Date of joining</label>
+                </td>
+                <td>
+                    <input type="Date" name="dt" id="dt">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="addr">Address</label>
+                </td>
+                <td>
+                    <textarea rows="3" cols="20" name="address" id="addr"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="program">Training Program Attended</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="program" id="HTML/DHTML">
+                    <label for="HTML/DHTML">HTML/DHTML</label>
+                    <input type="checkbox" name="program" id="JAVA">
+                    <label for="JAVA">JAVA</label>
+                    <input type="checkbox" name="program" id="CLIENT/Server">
+                    <label for="CLIENT/SERVER">CLIENT/SERVER</label>
+                    <input type="checkbox" name="program" id=".NET">
+                    <label for=".NET">.NET</label>
+                </td>
+            <tr>
+                <td>
+                    <label for="Programme need to attend">Programme need to attend</label>
+                </td>
+                <td>
+                    <select name="Programme need to attend" id="Programme">
+                        <option value="1">-------select one-------</option>
+                        <option value="JAVASCRIPT">JAVASCRIPT</option>
+                        <option value="JSTRUTS">JSTRUTS</option>
+                        <option value="HTML">HTML</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Send the information at</label></td>
+                <td><a href="mailto:supriyasanjays@gmail.com">supriyasanjays@gmail.com</a></td>
+            </tr>
+                   
+        </form>
+    </table>
+</body>
+
+</html>
+
+ 
+Problem-6:
+<html>
+
+<head>
+<style>
+    body{
+        border:2px solid black;
+    }
+  #submission{
+    text-align:right ;  /*make submit button at right side*/
+        }
+</style>
+
+</head> 
+
+<body >
+    <form action="">
+    <table>
+        <tr>
+            <td>
+                <h1>Internet Usage Survey</h1>
+            </td>
+        </tr>
+        <tr>
+            <td>The survey is being conducted to help identify the internet usage patterns of our customer.<br>
+                Please take a few moments to complete and submit this short form.Thank you for your cooperation</td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td>
+                <label for="Internet connection">What type of Internet connection do you have?<br>(Select one)<label style="color:red">*</label></label>
+            </td>
+            <td>
+                <select name="Internet connection" id="ICN">
+                    <option value="Dial-Up">Dial-Up</option>
+                    <option value="DSL">DSL</option>
+                    <option value="High Speed cable">High Speed cable"</option>
+                    <option value="Other">Other</option>
+                </select>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td>
+                <label for="Computer">What type of computer do you use most at home?<label style="color:red">*</label> </label>
+            </td>
+
+            <td>
+                <input type="radio" name="Computer" id="Desktop">
+                <label for="Desktop">Desktop</label>
+                <input type="radio" name="Computer" id="Laptop">
+                <label for="Laptop">Laptop</label>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td>
+                <label for="reason"> How would you describe your main reason for using the internet?<label style="color:red">*</label> </label>
+            </td>
+            <td>
+                <input type="radio" name="reason" id="to do work related activities">
+                <label for="to do work related activities">to do work related activities</label><br>
+                <input type="radio" name="reason" id="to do school related activities">
+                <label for="to do school related activities">to do school related activities</label><br>
+                <input type="radio" name="reason" id="for entertainment purpose">
+                <label for="for etertainment purpose">for entertainment purpose</label><br>
+                <input type="radio" name="reason" id="other activities">
+                <label for="other activities">other activities</label><br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend align="left">types of sites visited</legend>
+                    <label for="sites">What types of websites do you access most often? check all that
+                        apply<label style="color: red">*</label> <br><br></label>
+
+                    <input type="checkbox" name="sites" id="Self Improvement">
+                    <label for="Self Improvement">Self Improvement<br></label>
+                    <input type="checkbox" name="sites" id="Entertainment">
+                    <label for="Entertainment">Entertainment<br></label>
+                    <input type="checkbox" name="sites" id="News and sports">
+                    <label for="News and sports">News and sports<br></label>
+                    <input type="checkbox" name="sites" id="Reference">
+                    <label for="Reference">Reference<br></label>
+                    <input type="checkbox" name="sites" id="Email">
+                    <label for="Email">Email<br></label>
+                </fieldset>
+
+            </td>
+            <td>
+                <fieldset>
+                    <legend align="left">Time spent using Internet><br><br></legend>
+                    <label for="Hours">During an average week,how long do you spend online?<label style="color: red"> *</label><br><br></label>
+
+                    <input type="radio" name="Hours" id="0-3 Hours"> <!--here we can use <span style="color:red">*</span>--  span is used in input tag only-->
+                    <label for="0-3 Hours">0-3 Hours<br></label>
+                    <input type="radio" name="Hours" id="4-6 Hours">
+                    <label for="4-6 Hours">4-6 Hours<br></label>
+                    <input type="radio" name="Hours" id="7-10 Hours">
+                    <label for="7-10 Hours">7-10 Hours<br></label>
+                    <input type="radio" name="Hours" id="11-14 Hours">
+                    <label for="11-14 Hours">11-14 Hours<br></label>
+                    <input type="radio" name="Hours" id="15+ hours">
+                    <label for="15+ Hours">15+ Hours<br></label>
+                </fieldset>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td><label for="comment">comment on your opinions concerning Internet privacy and safety<label style="color:red">*</label></label><br>
+                <textarea name="opinions" id="comment" cols="100" rows="4" required></textarea>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td><label for="nm">First name<lable style="color:red">*</lable></label>
+                <textarea name="name" id="nm" cols="60" rows="1" placeholder="Enter Name" required></textarea>
+            </td>
+            <td><label for="nm">Last name<lable style="color:red">*</label></label>
+                <textarea name="name" id="nm" cols="40" rows="1" ></textarea> 
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td><label for="age">Age<label style="color:red">*</label></label>
+                <textarea name="age" id="age" cols="20" rows="1"required></textarea>
+            </td>
+            <td><label for="code">Zip code<label style="color:red">*</label></label>
+                <textarea name="code" id="code" cols="20" rows="1"required></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td id="submission">
+                <button type="submit" name="btn" id="btn">Click to submit</button></td>
+                <td><button type="reset" name="btn" id="btn">Clear Form</button>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+
+</html>
+
+ 
+
+Problem-7:
+<html>
+
+<head>
+ <style>
+
+    table,th,tr,td{
+        border: 2px solid grey;
+        border-collapse: collapse;
+    }
+</style> 
+
+</head>
+
+<body>
+    <table border="3px">
+        <th colspan="7" bgcolor="yellow">
+       <center>January</center>
+        </th>
+        <tr bgcolor="magenta">
+            <td>Sun</td>
+            <td>Mon</td>
+            <td>Tue</td>
+            <td>Wed</td>
+            <td>Thu</td>
+            <td>Fri</td>
+            <td>Sat</td><br>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td bgcolor="yellow">1</td>
+            <td bgcolor="cyan">2</td>
+        </tr>
+        <tr>
+            <td bgcolor="green">3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td bgcolor="cyan">9</td>
+
+        <tr>
+            <td bgcolor="green">10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td bgcolor="cyan">16</td>
+
+        </tr>
+        <tr>
+            <td bgcolor="green">17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td bgcolor="cyan">23</td>
+        </tr>
+        <tr>
+            <td bgcolor="green">24</td>
+            <td>25</td>
+            <td bgcolor="yellow">26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td bgcolor="cyan">30</td>
+        </tr>
+        <tr>
+        <td bgcolor="green">31</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+    </tr>
+
+</table>
+</body>
+
+</html>
+
+ 
+Problem-8:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedBack Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        body {
+            font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #48fbfe;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form {
+            margin: 5% 15%;
+            padding: 1% 2%;
+            border-radius: 4px;
+            background-color: #1E306E;
+            box-shadow: 0 0.25rem 0.45rem 0 rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+        }
+
+        form p {
+            text-align: center;
+            font-size: 20px;
+            margin: 1% 0px;
+        }
+
+        input {
+            transition: 0.8s;
+            color: black;
+            border-radius: 4px;
+            height: 25px;
+            padding: 4px;
+            outline: none;
+        }
+
+        label {
+            font-size: 14px;
+        }
+
+        textarea {
+            color: black;
+            transition: 0.8s;
+            border-radius: 4px;
+            outline: none;
+            resize: none;
+        }
+
+        select {
+            padding: 1px 4px;
+            color: black;
+            width: 35%;
+            height: 35px;
+            border-radius: 4px;
+        }
+
+        input:focus,
+        textarea:focus,
+        select:focus {
+            border: 3px solid #FE4880;
+        }
+
+        input[id="typeOfProb"] {
+            width: 60%;
+        }
+
+        input[type="submit"] {
+            font-size: 16px;
+            font-weight: bold;
+            background-color: #FE4880;
+            color: white;
+            width: 30%;
+            height: 35px;
+            padding: 4px;
+            border: 2px solid #FE4880;
+        }
+
+        input[type="submit"]:hover {
+            box-shadow: 0 0.1rem 0.45rem 0 rgba(0, 0, 0, 0.1);
+            transform: scale(1.05);
+        }
+
+        input[type="radio"] {
+            accent-color: #FE4880;
+        }
+
+        .row {
+            width: 100%;
+            margin: 5px 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            row-gap: 2px;
+        }
+
+        .bi-row {
+            margin: 5px 0px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            column-gap: 5%;
+        }
+
+        .radio {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            column-gap: 2px;
+        }
+
+        .submit {
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="mailto:someone@example.com">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, libero quibusdam! Cum, numquam. Itaque
+            sapiente, iure alias cum minus eveniet repudiandae nobis.</p>
+
+        <div class="row">
+            <label for="typeOfProb">Type of Problem</label>
+            <input type="text" name="" id="typeOfProb" placeholder="Missing Product, Website Down, etc" required>
+        </div>
+
+        <div class="bi-row">
+            <div class="row">
+                <label for="uname">Username</label>
+                <input type="text" name="" id="uname" placeholder="Alex Green" required>
+            </div>
+
+            <div class="row">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+        </div>
+
+        <div class="bi-row">
+            <div class="row">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" placeholder="+00 00000 00000">
+            </div>
+
+            <div class="row">
+                <label for="loc">Location</label>
+                <select name="" id="loc">
+                    <option value="pune">Pune</option>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="latur">Latur</option>
+                    <option value="nagpur">Nagpur</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <label for="desc">Description</label>
+            <textarea name="desc" id="desc" cols="30" rows="3"></textarea>
+        </div>
+
+        <div class="bi-row">
+            <label for="solved">Problem Solved?</label>
+            <div class="radio"><input type="radio" name="solved" id="" value="yes">Yes</div>
+            <div class="radio"><input type="radio" name="solved" id="" value="no">No</div>
+        </div>
+
+        <div class="row submit">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>
+
+ 
+Problem-9:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frames</title>
+</head>
+
+<frameset rows="15%,*">
+    <frame name="top" src="Q9_frame1.html"></frame>
+    <frameset cols="25%,*">
+        <frame name="left" src="Q9_frame2.html"></frame>
+        <frame name="right" src="Q9_frame3.html"></frame>
+    </frameset>
+    <noframes>
+
+        <body>
+            The browser you are working does not support frames.
+        </body>
+    </noframes>
+</frameset>
+
+</html>
+
+<html>
+
+<head>
+    <style>
+        header {
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>CDAC HTML Assignments</header>
+</body>
+
+</html>
+<html>
+
+<head>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>Assignments</header>
+    <p>
+        <a href="Q9_frame3.html" target="frame3">Assignment-1</a><br>
+        <a href="Q9_frame3.html" target="frame3">Assignment-2</a><br>
+        <a href="Q9_frame3.html" target="frame3">Assignment-3</a><br>
+        <a href="Q9_frame3.html" target="frame3">Assignment-4</a><br>
+        <a href="Q9_frame3.html" target="frame3">Assignment-5</a><br>
+        <a href="Q9_frame3.html" target="frame3">Assignment-6</a>
+    </p>
+</body>
+
+</html>
+
+<html>
+
+<head>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        caption {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        table,
+        th,
+        td {
+
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        .a3 {
+            width: 200px;
+        }
+
+        .a2 {
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption style="font-size:25px;">Employee Details</caption>
+        <tr>
+            <td>1)</td>
+            <td class="a2">Employee Id:</td>
+            <td class="a3"><input type="text" name="eid" id="id" size="8"></td>
+        </tr>
+        <tr>
+            <td>2)</td>
+            <td class="a2">Employee Name:</td>
+            <td class="a3"><input type="text" name="empname" id="ename" size="25"></td>
+        </tr>
+        <tr>
+            <td>3)</td>
+            <td class="a2">Department Name:</td>
+            <td class="a3"><select name="" id="">
+                    <option value="S/W">S/W</option>
+                    <option value="MFG">MFG</option>
+                    <option value="ABC">ABC</option>
+                    <option value="DEF">DEF</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td>4)</td>
+            <td>Gender:</td>
+            <td><input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="fmale">
+                <label for="fmale">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td>5)</td>
+            <td>Address:</td>
+            <td><textarea name="address" id="addr" cols="25" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td>6)</td>
+            <td>Skill Topic:</td>
+            <td><input type="checkbox" name="skilltopic" id="c">
+                <label for="c">C</label>
+                <input type="checkbox" name="skilltopic" id="c++">
+                <label for="c++">C++</label>
+                <input type="checkbox" name="skilltopic" id="java">
+                <label for="java">Java</label><br>
+                <input type="checkbox" name="skilltopic" id=".NEt">
+                <label for=".NET">C++</label>
+            </td>
+        </tr>
+        <tr>
+            <td>7)</td>
+            <td>Email:</td>
+            <td><textarea name="email" id="em" cols="25" rows="1"></textarea></td>
+        </tr>
+        <tr>
+            <td>8)</td>
+            <td>Birth Date:</td>
+            <td><input type="text" name="date" id="dd" size="2">DD/
+                <input type="text" name="month" id="mm" size="2">MM/
+                <input type="text" name="year" id="yyyy" size="4">YYYY
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
+
+ 
+
+HTML5
+Problem-1:
+<html>
+    <head>
+        <style>
+#fs1,#fs2{
+    width:600px;
+    margin-left:100px;
+}
+#hd1{
+   margin-left:100px;
+    font-weight:bold;
+    font-size:30px;
+}
+
+#btn1{
+    margin-left:50px;
+}
+        </style>
+    </head>
+    <body>
+        <header id="hd1">Appointment Scheduler</header>
+        <div>
+        <fieldset id="fs1">
+            <legend>Personal information</legend>
+            <form>
+               <p> <label>Name</label><br>
+                <input type="text" name="name" id="nm" size="15"><br>
+            </p>
+                <p>
+                <label>Telephone Number</label><br>
+                <input type="text" name="name" id="nm" size="15"><br>
+            </p>
+            <p>
+                <label>Email address</label><br>
+                <input type="email" name="email" id="em"><br>
+            </p>
+            <p>
+                <label>Date of Birth</label><br>
+                <input type="date" name="date" id="dt"><br>
+            </p>
+            </form>
+        </fieldset>
+    </div>
+
+    <div>
+        <fieldset id="fs2">
+            <legend>Appointment Request</legend>
+            <form>
+               <p> <label>What is the reason for your visit?</label><br>
+                <input type="text" name="reason" id="rs" size="15" placeholder="select or type your reason"><br>
+            </p>
+            <p> <label>Current pain level</label><br>
+                <input type="range" name="range" id="rg"><br>
+            </p>
+                <p>
+                <label>Telephone Number</label><br>
+                <input type="text" name="name" id="nm" size="15"><br>
+            </p>
+            <p>
+                <label>Preferred Date</label><br>
+                <input type="date" name="pdate" id="pdt"><br>
+            </p>
+            <p>
+                <label>Preferred Time</label><br>
+                <input type="number" name="time" id="tm" min="00" max="12"><br>
+            </p>
+            </form>
+        </fieldset>
+    </div>
+    <p></p>
+    <form>
+    <div id="btn1">
+        <button type="submit" name="btn11" id="btn1">submit</button>
+    </div>
+</form>
+    </body>
+</html>
+
+
+ 
+Problem-2:
+<html>
+
+<head>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        div {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(37, 111, 161);
+            color: white;
+            border-radius: 4px;
+            padding: 15px;
+            width: max-content
+        }
+
+        #step2 {
+            padding-top: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <fieldset id="fs1">
+            <legend>Registration Details</legend>
+            <form>
+                <table id="tb1" cellspacing="15">
+                    <tr>
+                        <td>University:</td>
+                        <td><input type="text" name="univer" id="uni"></td>
+                    </tr>
+                    <tr>
+                        <td>Institute:</td>
+                        <td><input type="text" name="institute" id="insti"></td>
+                    </tr>
+                    <tr>
+                        <td>Branch:</td>
+                        <td><select name="branch" id="br">
+                                <option value="branch">--select--</option>
+                                <option value="branch">ME</option>
+                                <option value="branch">CS</option>
+                                <option value="branch">E&TC</option>
+                                <option value="branch">MCS</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td>Degree:</td>
+                        <td><select name="degree" id="br">
+                                <option value="degree">--select--</option>
+                                <option value="degree">BTECH</option>
+                                <option value="degree">BE</option>
+                                <option value="degree">PGET</option>
+                                <input type="radio" name="deg" id="pers">
+                                <label for="pers">Persuing</label>
+                                <input type="radio" name="deg" id="comp">
+                                <label for="comp">Completed</label>
+                            </select></td>
+
+                    </tr>
+                    <tr>
+                        <td>Average CPI:</td>
+                        <td><input type="number" name="cpi" id="cp" min="1" max="10" size="2">
+                            <label for="cp">&nbsp;&nbsp;Upto</label>
+                            <input type="number" name="semester" id="sem" min="1" max="8" size="2">
+                            <label for="sem">Th Semester</label>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Experience:</td>
+                        <td><input type="number" name="experience" id="exp" min="1" max="10" size="2">
+                            <label for="exp">&nbsp;&nbsp;Years</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Your Website Or Blog:</td>
+                        <td><input type="url" name="blog" id="blg" size="25"></td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+        <div id="step2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="green"
+                class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                <path
+                    d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+            </svg>
+            &nbsp;&nbsp;Step 2&nbsp;&nbsp;
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="green"
+                class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                <path
+                    d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+            </svg>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+ 
+
+CSS
+Problem-1:
+	<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    legend {
+        background-color: blue;
+        border-radius: 1cm;
+    }
+
+    #mydiv1,
+    #mydiv2{
+        border-color: blue;
+    }
+
+    input[type="text"] {
+        background-color: black;
+    }
+    #div3{
+        margin-left: 1.5in;
+    }
+</style>
+
+<body>
+    <div id="mydiv1" style="width: 50%;">
+        <fieldset style="border: 4px solid blue; border-radius: 1cm;">
+            <legend>Name and address</legend>
+            <table>
+                <form>
+                    <tr>
+                        <td><label for="ssn">SSN</label></td>
+                        <td><input type="text" id="ssn"></td>
+                        <td style="background-color: blue;">Fill in name and address</td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="ssn">SSN</label></td>
+                        <td><input type="text" id="ssn"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="fn">Fullname</label></td>
+                        <td><input type="text" id="fn"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="street">Street number and city</label></td>
+                        <td><input type="text" id="street"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="code">Postal code</label></td>
+                        <td><input type="text" id="code"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="city">City</label></td>
+                        <td><input type="text" id="city"></td>
+                    </tr>
+                </form>
+
+            </table>
+        </fieldset>
+    </div>
+    <br>
+    <div id="mydiv2" style="width: 30%;">
+        <fieldset style="border: 4px solid blue; border-radius: 1cm;">
+            <legend>Username and password</legend>
+            <table>
+                <form>
+                    <tr>
+                        <td><label for="username">Username</label></td>
+                        <td><input type="text" id="username"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="pass">Password</label></td>
+                        <td><input type="text" id="pass"></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td><input type="checkbox" id="ch">
+                            <label for="ch">Show password</label>
+                        </td>
+
+                    </tr>
+                </form>
+            </table>
+        </fieldset>
+
+    </div>
+    <div id="div3">
+
+        <button type="button" style="background-color: blue;border-radius: 0.5cm;color: white;" >Register</button>
+    </div>
+</body>
+
+</html>
+
+ 
+-----------------------------------------------------------------------------------------------------------------------------------------
+Javascript
+Day-1: JS Fundamental
+Problem-1:
+<html>
+
+<head>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <script>
+        function largest() {
+            // alert("Hello");
+            var n1 = parseInt(document.getElementById("n1").value);
+            var n2 = parseInt(document.getElementById("n2").value);
+            var n3 = parseInt(document.getElementById("n3").value);
+            if ((n1 > n2) && (n1 > n3)) {
+                document.getElementById("mydiv").innerHTML += "the largest number is:" + n1;
+            }
+            else if ((n2 > n1) && (n2 > n3)) {
+                document.getElementById("mydiv").innerHTML += "the largest number is:" + n2;
+            }
+            else {
+                document.getElementById("mydiv").innerHTML += "the largest number is:" + n3;
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    num1:<input type="number" name="n1" id="n1">
+    num2:<input type="number" name="n2" id="n2">
+    num3:<input type="number" name="n3" id="n3">
+    <button type="button" name="btn" id="btn" onclick="largest()">Submitt</button>
+    <div id="mydiv">
+        Answer:
+    </div>
+</body>
+
+</html>
+
+
+ 
+-----------------------------------------------------------------------------------------------
+Problem-2:
+<html>
+<script>
+    function submit() {
+        var n = parseInt(document.getElementById("num").value);
+        var msgs = document.getElementById("msg").value;
+
+               for(var i=0;i<n;i++){
+            document.getElementById("mydiv").innerHTML+=msgs+"<br>";
+
+        }
+
+    }
+</script>
+
+<body>
+    num1:<input type="number" name="num" id="num">
+    message: <input type="text" name="message" id="msg">
+    <button type="button" name="btn" id="btn" onclick="submit()">submit</button>
+    <div id="mydiv">Answer:</div>
+    
+</body>
+
+</html>
+
+ 
+Problem-3:
+<html>
+<script>
+    function submit(){  
+          var n = parseInt(document.getElementById("num").value)
+    var i = 2;
+    while ((i <= n)) {
+        document.getElementById("mydiv").innerHTML +=" "+ i 
+        i = i + 2;
+    }
+}
+</script>
+
+<body>
+    num:<input type="number" name="num" id="num">
+    <button type="button" name="btn" id="btn" onclick="submit()">submit</button>
+    <div id="mydiv">Answer</div>
+</body>
+
+</html>
+ 
+Problem-4:
+<html>
+    <script>
+        function calculate(ev){
+            alert("Hello");
+            var n1=parseInt(document.getElementById("n1").value);
+            var n2=parseInt(document.getElementById("n2").value);
+            var arr=document.getElementsByName("operation");
+            for(var i=0;i<arr.length;i++){
+                if(arr[i].checked){  //checked which button is selected
+                    var op=arr[i].value; //get value of that button
+                }
+            }
+
+            var v=document.getElementById("mydiv");
+            switch(op){
+                case "+":
+                    var ans=n1+n2;
+                    v.innerHTML=`Addition ${n1+n2}`;
+                    break;
+                case "-":
+                    var ans=n1-n2;
+                    v.innerHTML=`Subtraction ${n1-n2}`;
+                    break;
+                case "/":
+                    var ans=n1/n2;
+                    v.innerHTML+=`division ${n1/n2}`;
+                    break;
+                case "*":
+                    var ans=n1*n2;
+                    v.innerHTML=`Multiplication ${n1*n2}`;
+                    break;
+            }
+            document.getElementById("n1").value="";
+            document.getElementById("n2").value="";
+            document.getElementById("result").value=ans;
+
+        }
+    </script>
+    <body>
+        <form>
+            num1: <input type="text" name="n1" id="n1">
+            num2: <input type="text" name="n2" id="n2">
+             Result: <input type="text" name="result" id="result" readonly> <!--readonly used in result here so we only read the value in that box can not change or modify value in that box-->
+            <input type="radio" name="operation" id="btn" value="+"><label for="btn">addition</label></button>
+            <input type="radio" name="operation" id="btn1" value="-"><label for="btn1">subtraction</label></button>
+            <input type="radio" name="operation" id="btn2" value="/"><label for="btn2">division</label></button>
+            <input type="radio" name="operation" id="btn3" value="*"><label for="btn3">multiplication</label></button>
+            <button type="button" name="btn" id="btn4" onclick="calculate()">calculate</button> <!-- type="button" used when data required to display on same page-->
+        </form>
+        <div id="mydiv">
+           Answer: 
+        </div>
+    </body>
+</html>
+
+ 
+ 
+Problem-5:
+<html>
+    <head>
+        <script>
+            function table(){
+                num=parseInt(document.getElementById("num").value);
+                alert(isNaN(num)+"====="+isFinite(num))
+                if(!isNaN(num)){
+                    for(i=1; i<=10;i++){
+                        sol=num*i;
+                        document.getElementById("para").innerHTML+=num+" * "+i+" = "+sol+"<br>";
+
+                    }
+                }else{
+                    document.getElementById("para").innerHTML="pls enterr the number";
+                    document.getElementById("num").value="";
+                    document.getElementById("num").setAttribute("style","background-color:yellow"),
+                    document.getElementById("num").focus                }
+
+            }
+        </script>
+    </head>
+    <body>
+        <input type="number" name="num" id="num" required><br>
+        <button type="button" id="btn" onclick="table()">Show Table</button>
+        <div id="para">
+
+        </div>
+    </body>
+</html>
+
+ 
+Problem-6:
+<html>
+
+<head>
+    <script>
+        function sum() {
+            var dp = document.getElementById("d1");
+            var str = document.getElementById("num").value;
+
+            var res = 0;
+            for (var i = 0; i < str.length; i++) {
+                res += parseInt(str.charAt(i));
+            }
+            dp.innerHTML = "Sum of digits of " + str + " = " + res;
+
+        }
+    </script>
+</head>
+
+<body>
+    Number: <input type="number" name="number" id="num" placeholder="--enter number--">
+    <button type="button" name="btn" id="btn1" onclick="sum()">Find Sum</button>
+    <div id="d1">
+
+    </div>
+</body>
+
+</html>
+
+
+ 
+Problem 7:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        function showMin(...args){
+
+            var valArr;
+            for(val of args){
+                valArr=val
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <button name="btn" id="btn1" onclick="showMin()">Show min</button>
+</body>
+</html>
+
+
+________________________________________
+Problem-8:
+<html>
+
+<script>
+
+    function power( x, n){
+        var x = parseInt(document.getElementById("x").value);
+        var n = parseInt(document.getElementById("n").value);
+
+    let pow = 1;
+
+    for (let i = 0; i < n; i++) { 
+        pow=pow * x; 
+    } 
+    return pow;
+    document.getElementById("mydiv").innerHTML+= "The x^n is:" +pow;
+ } 
+     
+    </script>
+<body>
+    <div>
+    <label for="x">x=</label>
+<input type="text" name="num1" id="x"><br><br>
+<label for="n">n=</label>
+<input type="text" name="num2" id="n"><br><br>
+<button type="button" name="btn" id="btn" onclick="power()">calculate<br></button>
+</div>
+<div id="mydiv">
+Answer: 
+</div>
+</body>
+<script>
+
+    function power(){
+        var x = parseInt(document.getElementById("x").value);
+        var n = parseInt(document.getElementById("n").value);
+alert(x+"=="+n);
+    let pow = 1;
+
+    for (let i = 0; i < n; i++) { 
+        pow=pow * x; 
+    } 
+  //  return pow;
+  document.getElementById("mydiv").innerHTML+= "The x^n is:" +pow;
+} 
+
+     
+    </script>
+
+</html>
+
+ 
+Problem-9:
+<html>
+
+<head>
+    <script>
+        function showInterest() {
+            var P = document.getElementById("p1").value;
+            var R = document.getElementById("ROI").value;
+            var N = document.getElementById("period").value;
+            var CI = (P * Math.pow((1 + (R / 100)), N) - P)
+            document.write("-----------------------------------------------------------<br>");
+            document.write("******* Calculate Compound Interest *******<br>")
+            document.write("-----------------------------------------------------------<br>")
+            document.write("Principle &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp     " + P + "&nbsp;rs<br>");
+            document.write("Rate Of Interest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp     " + R + "&nbsp;%<br>");
+            document.write("Period &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp     " + N + "&nbsp;yr<br>");
+            document.write("Compound Interest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp     " + CI + "&nbsp;rs");
+
+        }
+
+    </script>
+</head>
+
+<body style="font-size: 18px;">
+
+    Principle : <input type="number" name="num1" id="p1" placeholder="enter principle" autofocus>
+    ROI : <input type="number" name="num2" id="ROI" placeholder="enter ROI">
+    Period : <input type="number" name="num2" id="period" placeholder="no of years">
+    <button type="button" name="btn" type="btn1" onclick="showInterest()">Show Interest</button>
+    <div>
+        <table>
+            <tr>
+                <td id="td1_1"></td>
+                <td id="td1_2"></td>
+                <td id="td1_3"></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
+
+
+ 
+ 
+Problem-10:
+<html>
+
+<head>
+    <script>
+        function showInfo() {
+            var dt1 = new Date();
+            var dt2 = new Date(2022, 12, 31);
+            var monthName = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+            var dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            var day = dayNames[dt1.getDay()];
+            var date = dt1.getDate();
+            var month = monthName[dt1.getMonth()];
+            var year = dt1.getFullYear();
+            var days = (dt1.getTime() - dt2.getTime()) / (1000 * 3600 * 24);
+            var d2 = document.getElementsByTagName("div");
+            d2[1].innerHTML = "Today is " + day + ", " + date + " " + month + " " + year + ", Welcome, and Good Afternoon to You<br>";
+            d2[2].innerHTML = "Number of days left till end of year : " + Math.trunc(-days) + " days";
+        }   
+    </script>
+</head>
+
+<body onload="showInfo()" style="font-size: 18px; text-align: center;">
+    <div id="d1" style="font-size:30px;text-align:center">
+        "Welcome to our page "
+    </div>
+
+    <p></p>
+
+    <div id="d2"></div>
+    <div id="d3"></div>
+
+</body>
+
+
+</html>
+
+ 
+Problem-11:
+<html>
+
+<head>
+    <script>
+        function getWeekDay(a, b, c) {
+            var dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+            let date = new Date(a, b, c);
+            document.write(dayNames[date.getDay()]);
+            alert(dayNames[date.getDay()]);
+        }
+    </script>
+</head>
+
+<body onload="getWeekDay(2022,8,8)">
+    <div></div>
+
+</body>
+
+</html>
+
+ 
+
+Problem-12:
+<html>
+
+<head>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 10px;
+        }
+    </style>
+    <script>
+        var arr = ["Prashant", "Akshay", "Eknath", "Chaitanya", "Vinayak"];
+        function sortedArray() {
+            document.getElementById("mydiv").innerHTML = " Array before sorting :-  <br>";
+            for (var a of arr) {
+                document.getElementById("mydiv").innerHTML += a + "  ";
+            }
+            document.getElementById("mydiv").innerHTML += "<br/> Array after sorting :-  <br>";
+            arr.sort();
+            for (var a of arr) {
+                document.getElementById("mydiv").innerHTML += a + "  ";
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <button type="button" name="btn11" id="btn1" onclick="sortedArray()">Sort Objects Data</button>
+    <div id="mydiv" style="border:2px solid rgb(25, 123, 222); width:max-content; height:max-content; padding: 10px;">
+
+    </div>
+</body>
+
+</html>
+
+
+ 
+Problem-13:
+<html>
+
+<head>
+    <script>
+        var empArr = [{ empid: 11, empname: "Prashant", empsalary: 50000 }];
+        function submit() {
+            var empid = document.getElementById("id").value;
+            var empname = document.getElementById("name").value;
+            var empsalary = document.getElementById("sal").value;
+
+            obj = { empid, empname, empsalary };
+
+            empArr.push(obj);
+            document.getElementById("id").value = "";
+            document.getElementById("name").value = "";
+            document.getElementById("sal").value = "";
+            display();
+        }
+        function display(arr = empArr) {
+
+            str = `<table border="2">`;
+            str += `<tr><td>ID</td><td>NAME</td><td>SALARY</td></tr>`;
+            for (var a of arr) {
+                str += `<tr><td>${a.empid}</td><td>${a.empname}</td><td>${a.empsalary}</td></tr>`;
+            }
+            str += `</table>`;
+            document.getElementById("mydiv").innerHTML = str;
+        }
+    </script>
+</head>
+
+<body>
+    Emp Id : <input type="text" name="empid" id="id">
+    Emp Name : <input type="text" name="empname" id="name">
+    Emp Salary : <input type="text" name="salary" id="sal">
+    <button type="button" name="btn11" id="btn1" onclick="submit()">Submit</button>
+    <button type="button" name="btn22" id="btn2" onclick="display()">Display Table</button>
+    <div id="mydiv"></div>
+
+</body>
+
+</html>
+
+ 
+ 
+
+Problem 13:
+<html>
+
+<head>
+    <script>
+        var empArr = [{ empid: 11, empname: "Prashant", empsalary: 50000 }];
+        function submit() {
+            var empid = document.getElementById("id").value;
+            var empname = document.getElementById("name").value;
+            var empsalary = document.getElementById("sal").value;
+
+            obj = { empid, empname, empsalary };
+
+            empArr.push(obj);
+            document.getElementById("id").value = "";
+            document.getElementById("name").value = "";
+            document.getElementById("sal").value = "";
+            display();
+        }
+        function display(arr = empArr) {
+
+            str = `<table border="2">`;
+            str += `<tr><td>ID</td><td>NAME</td><td>SALARY</td></tr>`;
+            for (var a of arr) {
+                str += `<tr><td>${a.empid}</td><td>${a.empname}</td><td>${a.empsalary}</td></tr>`;
+            }
+            str += `</table>`;
+            document.getElementById("mydiv").innerHTML = str;
+        }
+    </script>
+</head>
+
+<body>
+    Emp Id : <input type="text" name="empid" id="id">
+    Emp Name : <input type="text" name="empname" id="name">
+    Emp Salary : <input type="text" name="salary" id="sal">
+    <button type="button" name="btn11" id="btn1" onclick="submit()">Submit</button>
+    <button type="button" name="btn22" id="btn2" onclick="display()">Display Table</button>
+    <div id="mydiv"></div>
+
+</body>
+
+</html>
+
+ 
+________________________________________
+Problem 14:
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="number" id="rad" name="rad" />
+    <label for="rad">Enter radius</label>
+
+    <br />
+    <input type="number" id="len" name="len" />
+    <label for="len">Enter length</label>
+    <input type="number" id="br" name="br" />
+    <label for="len">Enter breadth</label>
+    <button type="button" id="btn" name="rectbtn" onclick="showRectDetails()">
+      Send details
+    </button>
+
+    <div id="mydiv"></div>
+  </body>
+  <script>
+    //rect obj
+    const rect = {
+      len: document.getElementById("len").value,
+      br: document.getElementById("br").value,
+    };
+
+    //circle obj
+    const cir = { rad: document.getElementById("rad").value };
+
+    function showRectDetails() {
+      var area = calcArea(rect);
+      var pt = peri(rect);
+
+      var areac = areaOfCircle(cir);
+      var periOfCircle = periC(cir);
+      document.getElementById("mydiv").innerHTML +=
+        "Area of rect:" + area + " " + pt;
+      document.getElementById("mydiv").innerHTML +=
+        "Area of circle:" + areac + " " + periOfCircle;
+    }
+
+    function calcArea(rect) {
+      var area = rect.len * rect.br;
+      return area;
+    }
+
+    function peri(rect) {
+      var temp = 2 * (rect.len + rect.br);
+      return temp;
+    }
+
+    //circle
+
+    function areaOfCircle(cir) {
+      var area = Math.PI * cir.rad * cir.rad;
+      return area;
+    }
+
+    function periC(cir) {
+      var peri = 2 * Math.PI * cir.rad;
+      return peri;
+    }
+  </script>
+</html>
+
+ 
+________________________________________
+Problem 15:
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button type="button" id="btn" name="btn" onclick="showReverse()">
+      Click me
+    </button>
+    <div id="mydiv"></div>
+  </body>
+  <script>
+    var arr = ["Shruti", "Suraj", "Sakshi", "Prajwal"];
+    var revArr = [];
+    function showReverse() {
+      for (var temp of arr) {
+        revArr.push(temp.split("").reverse().join(""));
+      }
+
+      document.getElementById("mydiv").innerHTML = revArr.toString();
+    }
+  </script>
+</html>
+
+
+ 
+________________________________________
+Problem 16:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" id="btn" name="btn" onclick="showNoOfSites()">Check no of sites starting from www</button>
+    <div id="mydiv"></div>
+</body>
+<script>
+    
+    function showNoOfSites(){
+        var count=0;
+        var arr=["www.google.com","www.amaxon.co.in","www.msm.com","in.answers,yahoo.com"];
+        for(temp of arr){
+            if(temp.startsWith("www")){
+                count++;
+            }
+        }
+
+        document.getElementById("mydiv").innerHTML="No of sites starting with www are "+count;
+        
+    }
+
+</script>
+</html>
+
+ 
+________________________________________
+
+Problem-17:
+<html>
+
+<head>
+    <script>
+        function display() {
+            var dp1 = document.getElementById("d1");
+            var dp2 = document.getElementById("d2");
+            var rad = document.getElementById("num1").value;
+            var area = Math.PI * Math.pow(rad, 2);
+            var circum = (2 * Math.PI * rad);
+
+            dp1.innerHTML = "Area : " + area;
+            dp2.innerHTML = "Circumference : " + circum;
+        }
+
+    </script>
+</head>
+
+<body style="display: flex; flex-direction: column; align-items: center;">
+    <div style="width:400px;height:200px;border:2px solid rgb(31, 163, 193); padding: 10px;">
+        <p></p>
+        Enter Radius :<input type="number" name="num" id="num1" size="5"><br>
+        <p></p>
+        <button type="button" name="btn" id="btn1" onclick="display()">Display</button>
+        <p></p>
+        <div id="d1"></div>
+        <p></p>
+        <div id="d2"></div>
+    </div>
+</body>
+
+</html>
+
+ 
+Problem-18
+<html>
+
+<head>
+    <script>
+        function getresult() {
+            var radioarr = document.getElementsByName("rad");
+            for (i = 0; i < radioarr.length; i++) {
+                if (radioarr[i].checked) {
+
+                    var op = radioarr[i].value;
+
+                }
+            }
+            switch (op) {
+                case "r1":
+                    var ostr = document.getElementById("os1").value;
+                    var substr = document.getElementById("os2").value;
+                    if (ostr.includes(substr)) {
+                        alert("string found !!");
+                    } else {
+                        alert("string not found !!");
+                    }
+                    break;
+
+                case "r2":
+                    var ostr = document.getElementById("os1").value;
+
+                    alert(ostr.toUpperCase());
+                    break;
+
+                case "r3":
+                    var ostr = document.getElementById("os1").value;
+
+                    alert(ostr.toLowerCase());
+                    break;
+
+                case "r4":
+                    var ostr = document.getElementById("os1").value;
+                    var tostr = ostr.trim();
+                    alert(tostr);
+                    document.getElementById("os1").value = tostr;
+                    break;
+
+                case "r5":
+                    var ostr = document.getElementById("os1").value;
+                    var substr = document.getElementById("os2").value;
+                    alert(ostr.concat(substr));
+                    break;
+
+                case "r6":
+                    var ostr = document.getElementById("os1").value;
+                    var repstr = document.getElementById("os3").value;
+                    alert(repstr);
+                    document.getElementById("os1").value = repstr;
+                    break;
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    Enter String : <input type="text" name="ostring" id="os1" size="15" maxlength="20" autofocus><br>
+    <p></p>
+    Enter Sub String : <input type="text" name="ostring" id="os2" size="15" maxlength="20"><br>
+    <p></p>
+    Replace with String : <input type="text" name="ostring" id="os3" size="15" maxlength="20"><br>
+    <p></p>
+    <input type="radio" name="rad" id="r1" value="r1"><label for="r1">Search substring in main string</label>
+    <input type="radio" name="rad" id="r2" value="r2"><label for="r2">To Upper Case</label>
+    <input type="radio" name="rad" id="r3" value="r3"><label for="r3">To Lower Case</label>
+    <input type="radio" name="rad" id="r4" value="r4"><label for="r4">Trim spaces</label>
+    <input type="radio" name="rad" id="r5" value="r5"><label for="r5">Concatenate</label>
+    <input type="radio" name="rad" id="r6" value="r6"><label for="r6">replace</label><br>
+    <p></p>
+    <button type="button" name="btn" id="btn1" onclick="getresult()">Submit Querry</button>
+
+</body>
+
+</html>
+-----------------------------------------------------------------------------------------------------------------
+ 
+Problem 19:
+<html>
+
+<head>
+    <script>
+        function displaySum() {
+            var dp = document.getElementById("d1");
+            var num = document.getElementById("num1").value;
+            if (num >= 0 && num < 1000) {
+                var sum = 0;
+                var temp = num;
+                while (temp > 0) {
+                    rem = temp % 10;
+                    temp = Math.trunc(temp / 10);
+                    sum += rem;
+                }
+                dp.innerHTML = "Sum of the digit of " + num + "  is  " + sum;
+            } else {
+                dp.innerHTML = "Entered Number is out of range ";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    Enter Number : <input type="number" name="numb" id="num1" max="999" min="1" />
+    <button type="button" name="btn" id="btn1" onclick="displaySum()">Display Sum</button>
+    <p></p>
+    <div id="d1"></div>
+</body>
+
+</html>
+
+ ----------------------------------------------------------------------------------------------------------------------------
+Problem 20:
+<html>
+<script>
+    function display() {
+        var dp = document.getElementById("th2");
+        arr1 = ["John", "Steve", "Ben", "Damon", "Ian"];
+        // str=arr1.toString();
+        var str1 = arr1.join(", ");
+	
+        var str2 = str1.toUpperCase();
+        dp.innerHTML = str2;
+    }
+</script>
+
+<body>
+
+    <div id="d1">
+        <button type="button" name="btn" id="btn1" onclick="display()">Display String</button>
+    </div>
+    <p></p>
+    <div id="d2">
+        <table style="border:2px solid rgb(0, 213, 255); padding: 10px;">
+            <tr>
+                <td style="font-weight:bold">Members of My Group Are: </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td id="th2"> </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
+
+ 
+Problem 21:
+<html>
+
+<head>
+    <script>
+        function insert() {
+            var dp = document.getElementById("list");
+            arr1 = ["John", "Steve", "Ben", "Damon", "Ian"];
+            var str = "";
+            for (var a of arr1) {
+                str += `<li>${a}</li>`
+            }
+            dp.innerHTML += str;
+        }
+    </script>
+</head>
+
+<body onload="insert()">
+    <div style="border:2px solid rgb(16, 169, 177); margin-right:950px; padding: 10px;">
+        <h3>Members of My Group Are: </h3>
+        <ol id="list">
+
+        </ol>
+    </div>
+</body>
+
+</html>
+ 
+Problem 22:
+Problem 22:
+<html>
+
+<head>
+    <style>
+        d {
+            padding: 5px;
+        }
+
+        div {
+            text-align: center;
+            padding: 5px;
+            border: 2px solid black;
+            width: 200px;
+        }
+    </style>
+    <script>
+        function check() {
+            var arr = document.getElementsByName("d");
+
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i].id == "training") {
+
+                    arr[i].setAttribute("Style", "background-color:green");
+                } else {
+                    arr[i].setAttribute("Style", "background-color:red");
+                }
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <button type="button" name="btn" id="btn1" onclick="check()">Check Divs</button>
+    <p></p>
+    <p></p>
+    <div name="d" id="teaching" value="teaching">teaching</div>
+    <p></p>
+    <div name="d" id="training" value="training">training</div>
+    <p></p>
+    <div name="d" id="training" value="training">training</div>
+    <p></p>
+    <div name="d" id="teaching" value="teaching">teaching</div>
+    <p></p>
+    <div name="d" id="hello" value="hello">hello</div>
+    <p></p>
+    <div name="d" id="training" value="training">training</div>
+
+</body>
+
+</html>
+
+
+
+ 
+Problem 23:
+Problem 23:
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Members of my group are</h3>
+    <ol id="list"></ol>
+  </body>
+
+  <script>
+    var arr = ["JOHN", "BEN", "DAMON", "IAN"];
+    var str = "";
+    //  document.getElementById("list").setAttribute("type", "*");
+
+    var func = function () {
+      for (temp of arr) {
+        str = str + "<li>" + temp + "</li>";
+      }
+      document.getElementById("list").innerHTML = str;
+    };
+
+    func();
+  </script>
+</html>
+
+
+________________________________________
+
+
+Problem 24:
+<html>
+
+<head>
+    <script>
+        function validateName() {
+            var nm = document.getElementById("uname").value;
+            if (nm.length >= 6 && nm.length <= 10) {
+                document.getElementById("td1").innerHTML = "";
+                return true;
+            } else {
+                document.getElementById("td1").innerHTML = "Username";
+                return false;
+            }
+        }
+
+        function validatePass() {
+            var ps = document.getElementById("pass").value;
+            var passPattern = /^(?=.*\d)(?=.*[A-Z])(.{6,50})$/;
+            if (ps.match(passPattern)) {
+                document.getElementById("td1").innerHTML = "";
+                return true;
+            }
+            else {
+                document.getElementById("td2").innerHTML = "Password should contains alteast one number and one capital character.";
+                return false;
+            }
+        }
+
+        function validate() {
+            var nameflag = validateName();
+            var passflag = validatePass();
+            if (nameflag && passflag) {
+                console.log("true");
+                document.getElementById("success").innerHTML = "Logged in Successfully";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    Username : <input type="text" name="uname" id="uname">
+                </td>
+                <td id="td1"></td>
+            </tr>
+            <tr>
+                <td>
+                    Password : <input type="password" name="pass" id="pass">
+                </td>
+                <td id="td2"></td>
+            </tr>
+        </table>
+        <button type="button" name="btn" id="btn1" onclick="validate()">Submit</button>
+        <p id="success"></p>
+    </form>
+
+</body>
+
+</html>
+
+ 
+Problem 25:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <table>
+        <!-- <form> -->
+            <tr>
+                <td><label for="idno">Order ID</label></td>
+                <td><input type="number" name="idno" id="idno" required></br></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td> <label for="custName">Customer name</label></td>
+                <td><input type="text" name="custName" id="custName" required minlength="6"></td>
+                <td id="errName"></td>
+            </tr>
+            <tr>
+                <label for="billDate">Billing date</label>
+                <input type="date" name="billDate" id="billDate" required></br>
+                <td id="errBill"></td>
+            </tr>
+            <tr>
+                <label for="shipDate">Shipping date</label>
+                <input type="date" name="shipDate" id="shipDate" required></br>
+            </tr>
+            <tr>
+                <label for="price">Order total</label>
+                <input type="number" name="price" id="price" required></br>
+            </tr>
+
+            <tr>
+                <td>
+                    <button type="button" id="btn" onclick="validate()">Display</button>
+                </td>
+            </tr>
+        <!-- </form> -->
+    </table>
+</body>
+
+<script>
+
+    function validate() {
+
+       // alert(billdate);
+        var billdate=document.getElementById("billDate").value;
+        var shipdate=document.getElementById("shipDate").value;
+
+       
+        if(billdate>shipdate){
+            document.getElementById("errBill").innerHTML="<br>Bill date should be lesser than shipping date";
+            return false;
+        }
+
+        return true;
+    }
+
+    if(validate){
+
+        var order={};
+
+        order.idno=""+document.getElementById("idno");
+        order.custName=""+document.getElementById("custName");
+        order.billDate=""+document.getElementById("billDate");
+        order.shipDate=""+document.getElementById("shipDate");
+        order.price=""+document.getElementById("price");
+
+        var newWin=window.open();
+        newWin.document.write(order.billDate);
+
+        newWin.document.open.document.getElementById("mydiv").
+    }
+
+</script>
+
+</html>
+
